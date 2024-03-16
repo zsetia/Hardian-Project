@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+}
+
+
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+/* Header and Nav Bar */
+.logo {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: space-between;
+    border-top: solid black 1px;
+    height:40px;
+    
+}
+
+nav li{
+    display: inline;
+    padding-left: 20px;
+
+}
+
+nav ul {
+    line-height: 0.5rem;
+}
+
+.nav_action {
+    margin-right: 4rem;
+
+}
+
+.nav_action li {
+    width: 25px;
+    height: 25px;
+    list-style: none;
+    padding-left: 20px;
+    margin-top:-5px;
+
+}
+
+.nav_action ul {
+    display: inline-flex;
+}
+
+/* Link styles for Header */
+.logo {
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner */
+.banner {
+    background-image: url(/resources/images/carhartt-desktopfull.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50rem;
+
+}
+
+.banner_text {
+    font-style: 'Kaisei HarunoUmi', 'Times New Roman', serif;
+    color: white;
+    padding-top: 28rem;
+    margin-left: 12rem;
+}
+
+.season {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.slogan {
+    font-size: 4rem;
+}
